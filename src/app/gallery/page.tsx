@@ -9,7 +9,7 @@ export default function Page() {
 
 	return (
 
-		<main className="p-4">
+		<div className="p-4">
 
 			<h1 className="text-2xl font-bold">Gallery</h1>
 
@@ -41,6 +41,6 @@ export default function Page() {
 					<Image src="https://images.unsplash.com/photo-1429704658776-3d38c9990511" alt="風景" fill />
 				</div>
 			</div>
-		</main>
+		</div>
 	)
 }
