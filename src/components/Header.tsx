@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 function Header() {
 
 	return (
@@ -6,13 +8,13 @@ function Header() {
 
 			<div className="flex justify-between items-center">
 				
-				<h1 className="text-3xl font-light">My Next App</h1>
+				<Link href="/" className="text-3xl font-light">My Next App</Link>
 
 				<div className="flex gap-x-8">
 
-					<p>Top</p>
-					<p>About</p>
-					<p>Gallery</p>
+					<Link href="/" className="hover:underline">Top</Link>
+					<Link href="/about" className="hover:underline">About</Link>
+					<Link href="/gallery" className="hover:underline">Gallery</Link>
 				</div>
 			</div>
 		</header>
