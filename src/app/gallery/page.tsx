@@ -21,6 +21,26 @@ export default function Page() {
 				<Image src={image03} alt="風景" className="aspect-video object-cover" />
 				<Image src={image04} alt="風景" className="aspect-video object-cover" />
 			</div>
+
+			<p className="mt-6">リモート画像</p>
+			<div className="mt-2 grid grid-cols-3 gap-4">
+
+				<div className="relative aspect-video object-cover bg-gray-300">
+					<Image src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="風景" fill />
+				</div>
+
+				<div className="relative aspect-video object-cover bg-gray-300">
+					<Image src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6" alt="風景" fill />
+				</div>
+
+				<div className="relative aspect-video object-cover bg-gray-300">
+					<Image src="https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb" alt="風景" fill />
+				</div>
+
+				<div className="relative aspect-video object-cover bg-gray-300">
+					<Image src="https://images.unsplash.com/photo-1429704658776-3d38c9990511" alt="風景" fill />
+				</div>
+			</div>
 		</main>
 	)
 }
