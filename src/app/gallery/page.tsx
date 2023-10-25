@@ -25,20 +25,20 @@ export default function Page() {
 			<p className="mt-6">リモート画像</p>
 			<div className="mt-2 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
 
-				<div className="relative aspect-video object-cover bg-gray-300">
-					<Image src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="風景" fill />
+				<div className="relative aspect-video bg-gray-300">
+					<Image src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="風景" fill className="object-cover" />
 				</div>
 
-				<div className="relative aspect-video object-cover bg-gray-300">
-					<Image src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6" alt="風景" fill />
+				<div className="relative aspect-video bg-gray-300">
+					<Image src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6" alt="風景" fill className="object-cover" />
 				</div>
 
-				<div className="relative aspect-video object-cover bg-gray-300">
-					<Image src="https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb" alt="風景" fill />
+				<div className="relative aspect-video bg-gray-300">
+					<Image src="https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb" alt="風景" fill className="object-cover" />
 				</div>
 
-				<div className="relative aspect-video object-cover bg-gray-300">
-					<Image src="https://images.unsplash.com/photo-1429704658776-3d38c9990511" alt="風景" fill />
+				<div className="relative aspect-video bg-gray-300">
+					<Image src="https://images.unsplash.com/photo-1429704658776-3d38c9990511" alt="風景" fill className="object-cover" />
 				</div>
 			</div>
 		</div>
