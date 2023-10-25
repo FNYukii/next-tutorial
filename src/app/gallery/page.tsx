@@ -14,7 +14,7 @@ export default function Page() {
 			<h1 className="text-2xl font-bold">Gallery</h1>
 
 			<p className="mt-2">ローカル画像</p>
-			<div className="mt-2 grid grid-cols-3 gap-4">
+			<div className="mt-2 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
 
 				<Image src={image01} alt="風景" className="aspect-video object-cover" />
 				<Image src={image02} alt="風景" className="aspect-video object-cover" />
@@ -23,7 +23,7 @@ export default function Page() {
 			</div>
 
 			<p className="mt-6">リモート画像</p>
-			<div className="mt-2 grid grid-cols-3 gap-4">
+			<div className="mt-2 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
 
 				<div className="relative aspect-video object-cover bg-gray-300">
 					<Image src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="風景" fill />
