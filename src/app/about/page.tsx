@@ -2,7 +2,7 @@ export default function Page() {
 	
   return (
 
-    <div className="p-4">
+    <div>
 
       <h1 className="text-2xl font-bold">About</h1>
 			<p className="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt culpa vel tenetur, quaerat nostrum quam sint nemo repellat aliquam quas odit quisquam fugit modi. Accusantium et beatae officia minus!</p>

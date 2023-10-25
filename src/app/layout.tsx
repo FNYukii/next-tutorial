@@ -13,12 +13,14 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			
+
 			<body>
 
 				<Header />
 
-				{children}
+				<main className='mt-4    mx-auto lg:w-[1024px] px-4 lg:px-0'>
+					{children}
+				</main>
 			</body>
 		</html>
 	)
