@@ -1,3 +1,10 @@
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+	title: "Gallery - My Next App",
+}
+
+
 export default function Page() {
 	
   return (
